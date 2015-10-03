@@ -1,0 +1,22 @@
+.bubble {
+  position: relative;
+  width: 195px;
+  height: 185px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 66px;
+  -moz-border-radius: 66px;
+  border-radius: 66px;
+  &:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 11px 0 11px 15px;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -15px;
+    top: 89px;
+  }
+}
