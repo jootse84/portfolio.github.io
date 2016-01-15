@@ -2,7 +2,8 @@
 
 var PortfolioLink = React.createClass({
   render: function () {
-    return (<div className="col-sm-4 portfolio-item flip-container">
+    return (
+      <div className="col-sm-4 portfolio-item flip-container">
         <a href="#portfolioModal4" className="portfolio-link" data-toggle="modal">
             <div className="caption">
                 <div className="caption-content">
@@ -12,7 +13,8 @@ var PortfolioLink = React.createClass({
             <img src={this.props.img} className="img-responsive front" alt="" />
             <img src={this.props.img} className="img-responsive back" alt="" />
         </a>
-    </div>);
+      </div>
+    );
   }
 });
 
@@ -27,10 +29,12 @@ var PortfolioList = React.createClass({
         <PortfolioLink img={this.props.list[count].img} />
       );
     }
-    return (<div className="row">
-      <div className="col-xs-offset-3 col-xs-6 col-sm-offset-1 col-sm-10">
-        {listPortfolioLink}
+    return (
+      <div className="row">
+        <div className="col-xs-offset-3 col-xs-6 col-sm-offset-1 col-sm-10">
+          {listPortfolioLink}
+        </div>
       </div>
-    </div>);
+    );
   }
 });

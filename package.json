@@ -8,9 +8,13 @@
   },
   "devDependencies": {
     "gulp-watch": "~4.3.5",
-    "gulp-react": "~3.0.1"
+    "gulp-react": "~3.0.1",
+    "express": "~4.13.3",
+    "consolidate": "~0.13.1",
+    "mustache": "~2.2.1"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
