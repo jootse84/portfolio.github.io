@@ -1188,7 +1188,7 @@ ul li {
 }
 
 .education ul li span,.employment ul li span {
-  color:#0ed4c8;
+  color:#3f538e;
   display:inline-block;
   margin:5px 0 10px;
   font-size:13px
@@ -1214,7 +1214,8 @@ ul li {
 /* ------------------------------------------------*/
 
 .skills {
-  background: none repeat scroll 0 0 #31708F;
+  background-image:url("../img/bg-5.jpg");
+  /*background: none repeat scroll 0 0 #31708F;*/
   overflow: hidden;
   padding: 35px 0;
   position: relative;
@@ -1944,7 +1945,7 @@ button.filter + label {
 }
 
 .address {
-  background: none repeat scroll 0 0 #fe7c60;
+  background: url("../img/bg-6.jpg") repeat-y scroll 0 0 black; /*#fe7c60;*/
   min-height: 400px;
   padding: 100px 0;
   position: relative;
@@ -1952,7 +1953,7 @@ button.filter + label {
 
 .address:after {
   border-right:403px solid transparent;
-  border-top:403px solid #fe7c60; /*#F4775C;*/
+  border-top:403px solid black; /*#fe7c60;*/ /*#F4775C;*/
   content:"";
   height:100%;
   position:absolute;
@@ -1962,11 +1963,13 @@ button.filter + label {
   z-index:2
 }
 
+.location {
+  padding: 20px 0 120px 0;
+}
 
 .location ul {
   display:block;
   width:100%;
-  padding: 0;
 }
 
 .location ul li {
@@ -1989,13 +1992,18 @@ button.filter + label {
 }
 
 .location h4 {
-  color:#f3f3f3;
+  color:#3f3f46;
   font-family:"PT Sans",sans-serif;
+  line-height: 20px;
   font-size:13px;
   font-weight:700;
   margin:5px auto;
   text-align:center;
   text-transform: uppercase
+}
+
+.location h4.email {
+  text-transform: lowercase;
 }
 
 /* Social Profiles */
@@ -2022,7 +2030,7 @@ button.filter + label {
   background:none repeat scroll 0 0 #fff;
   border-radius:50%;
   box-shadow:0 0 0 20px transparent;
-  color:#7c7c7c;
+  color:#333;
   font-size:24px;
   height:50px;
   line-height:50px;
@@ -2036,7 +2044,7 @@ button.filter + label {
 }
 
 .social-profiles ul li a i:hover {
-  color:#FE7C60;
+  color:#777;
   box-shadow:0 0 0 0 rgba(255,255,255,0.3);
   -webkit-transition: box-shadow .4s ease-in-out;
   -moz-transition: box-shadow .4s ease-in-out;

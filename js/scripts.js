@@ -228,8 +228,8 @@ jQuery(document).ready(function($) {
     map = new GMaps({
         position: "TOP_CENTER",
         el: '#map',
-        lat: 23.790223,
-        lng: 90.414036,
+        lat: 25.03297,
+        lng: 121.56542,
         zoom: 13,
         zoomControl: true,
         zoomControlOpt: {
@@ -241,11 +241,11 @@ jQuery(document).ready(function($) {
     });
     // add address markers
     map.addMarker({
-        lat: 23.790223,
-        lng: 90.414036,
+        lat: 25.03297,
+        lng: 121.56542,
         title: 'Codetic',
         infoWindow: {
-            content: '<p> Mirpur , Dhaka</p>'
+            content: '<p>Taipei, Taiwan</p>'
         }
     });
 
