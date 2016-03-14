@@ -228,8 +228,8 @@ jQuery(document).ready(function($) {
     map = new GMaps({
         position: "TOP_CENTER",
         el: '#map',
-        lat: 25.03297,
-        lng: 121.56542,
+        lat: 38.90719,
+        lng: -77.03687,
         zoom: 13,
         zoomControl: true,
         zoomControlOpt: {
@@ -241,8 +241,8 @@ jQuery(document).ready(function($) {
     });
     // add address markers
     map.addMarker({
-        lat: 25.03297,
-        lng: 121.56542,
+        lat: 38.90719,
+        lng: -77.03687,
         title: 'Codetic',
         infoWindow: {
             content: '<p>Taipei, Taiwan</p>'
